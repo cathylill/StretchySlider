@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <style>
+            html * { border: none; font-family: Arial, Helvetica, sans-serif; margin: 0; padding: 0; }
+            body { background: #666; padding: 25px; }
+            .stretchy-slider { background: #fff; float: left; width: 100%; }
+            .stretchy-slider span { float: left; height: auto !important; height: 200px; list-style: none; min-height: 200px; margin: 4px 0 4px 4px; padding: 10px 10px 50px; vertical-align: top; }
+            .stretchy-slider span:nth-child(3n+0) { background: #AFECF7; }
+            .stretchy-slider span:nth-child(3n+2) { background: #FFFBD6; }
+            .stretchy-slider span:nth-child(3n+1) { background: #DBF9C2; }
+            
+            .slider-container.slider-active .slider-scrubber { background: red; }
+        </style>
+    </head>
+    <body>
+        <div class="stretchy-slider">
+            <span><img class="stretch-resize" src="http://t0.gstatic.com/images?q=tbn:ANd9GcR2O5-0eLVmLYqigsLkwhuIY8IEXCxzAk2wGf67HW6rZVyqhDi1" width="200px" height="280px" style="background: red">One</span>
+            <span><img class="stretch-resize" src="http://t0.gstatic.com/images?q=tbn:ANd9GcR2O5-0eLVmLYqigsLkwhuIY8IEXCxzAk2wGf67HW6rZVyqhDi1" width="180px" height="280px" style="background: blue">Two</span>
+            <span><img class="stretch-resize" src="http://t0.gstatic.com/images?q=tbn:ANd9GcR2O5-0eLVmLYqigsLkwhuIY8IEXCxzAk2wGf67HW6rZVyqhDi1" width="150px" height="280px" style="background: orange">three</span>
+            <span><img class="stretch-resize" src="http://t0.gstatic.com/images?q=tbn:ANd9GcR2O5-0eLVmLYqigsLkwhuIY8IEXCxzAk2wGf67HW6rZVyqhDi1" width="200px" height="280px" style="background: red">Hello</span>
+            <span><img class="stretch-resize" src="http://t0.gstatic.com/images?q=tbn:ANd9GcR2O5-0eLVmLYqigsLkwhuIY8IEXCxzAk2wGf67HW6rZVyqhDi1" width="210px" height="280px" style="background: green">Goodbye</span>
+            <span><img class="stretch-resize" src="http://t0.gstatic.com/images?q=tbn:ANd9GcR2O5-0eLVmLYqigsLkwhuIY8IEXCxzAk2wGf67HW6rZVyqhDi1" width="200px" height="280px" style="background: red">One</span>
+            <span><img class="stretch-resize" src="http://t0.gstatic.com/images?q=tbn:ANd9GcR2O5-0eLVmLYqigsLkwhuIY8IEXCxzAk2wGf67HW6rZVyqhDi1" width="180px" height="280px" style="background: blue">Two</span>
+            <span><img class="stretch-resize" src="http://t0.gstatic.com/images?q=tbn:ANd9GcR2O5-0eLVmLYqigsLkwhuIY8IEXCxzAk2wGf67HW6rZVyqhDi1" width="150px" height="280px" style="background: orange">three</span>
+            <span><img class="stretch-resize" src="http://t0.gstatic.com/images?q=tbn:ANd9GcR2O5-0eLVmLYqigsLkwhuIY8IEXCxzAk2wGf67HW6rZVyqhDi1" width="200px" height="280px" style="background: red">Hello</span>
+            <span><img class="stretch-resize" src="http://t0.gstatic.com/images?q=tbn:ANd9GcR2O5-0eLVmLYqigsLkwhuIY8IEXCxzAk2wGf67HW6rZVyqhDi1" width="210px" height="280px" style="background: green">Goodbye</span>
+            <span><img class="stretch-resize" src="http://t0.gstatic.com/images?q=tbn:ANd9GcR2O5-0eLVmLYqigsLkwhuIY8IEXCxzAk2wGf67HW6rZVyqhDi1" width="200px" height="280px" style="background: red">One</span>
+            <span><img class="stretch-resize" src="http://t0.gstatic.com/images?q=tbn:ANd9GcR2O5-0eLVmLYqigsLkwhuIY8IEXCxzAk2wGf67HW6rZVyqhDi1" width="180px" height="280px" style="background: blue">Two</span>
+            <span><img class="stretch-resize" src="http://t0.gstatic.com/images?q=tbn:ANd9GcR2O5-0eLVmLYqigsLkwhuIY8IEXCxzAk2wGf67HW6rZVyqhDi1" width="150px" height="280px" style="background: orange">three</span>
+            <span><img class="stretch-resize" src="http://t0.gstatic.com/images?q=tbn:ANd9GcR2O5-0eLVmLYqigsLkwhuIY8IEXCxzAk2wGf67HW6rZVyqhDi1" width="200px" height="280px" style="background: red">Hello</span>
+            <span><img class="stretch-resize" src="http://t0.gstatic.com/images?q=tbn:ANd9GcR2O5-0eLVmLYqigsLkwhuIY8IEXCxzAk2wGf67HW6rZVyqhDi1" width="210px" height="280px" style="background: green">Goodbye</span>
+            <span><img class="stretch-resize" src="http://t0.gstatic.com/images?q=tbn:ANd9GcR2O5-0eLVmLYqigsLkwhuIY8IEXCxzAk2wGf67HW6rZVyqhDi1" width="200px" height="280px" style="background: red">One</span>
+            <span><img class="stretch-resize" src="http://t0.gstatic.com/images?q=tbn:ANd9GcR2O5-0eLVmLYqigsLkwhuIY8IEXCxzAk2wGf67HW6rZVyqhDi1" width="180px" height="280px" style="background: blue">Two</span>
+            <span><img class="stretch-resize" src="http://t0.gstatic.com/images?q=tbn:ANd9GcR2O5-0eLVmLYqigsLkwhuIY8IEXCxzAk2wGf67HW6rZVyqhDi1" width="150px" height="280px" style="background: orange">three</span>
+            <span><img class="stretch-resize" src="http://t0.gstatic.com/images?q=tbn:ANd9GcR2O5-0eLVmLYqigsLkwhuIY8IEXCxzAk2wGf67HW6rZVyqhDi1" width="200px" height="280px" style="background: red">Hello</span>
+            <span><img class="stretch-resize" src="http://t0.gstatic.com/images?q=tbn:ANd9GcR2O5-0eLVmLYqigsLkwhuIY8IEXCxzAk2wGf67HW6rZVyqhDi1" width="210px" height="280px" style="background: green">Goodbye</span>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+        <script src="stretchy-slider.jquery.js"></script>
+        <script>jQuery(".stretchy-slider").sliderify();</script>
+    </body>
+</html>
